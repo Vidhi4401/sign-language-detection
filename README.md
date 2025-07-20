@@ -47,7 +47,7 @@ pip install -r requirements.txt
 Run the training script:
 
 ```bash
-python train.py
+python preprocess_and_train.py
 ```
 
 This will:
@@ -65,7 +65,7 @@ This will:
 Once training is complete, use the detection script to classify hand gestures:
 
 ```bash
-python detect.py
+python detect_real_time.py
 ```
 
 The script will:
