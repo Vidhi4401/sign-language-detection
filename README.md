@@ -92,7 +92,7 @@ sign-language-detection/
 ## 🌐 Future Enhancements
 
 * Support for Indian or other regional sign languages
-* Integration with voice/text translation
+* Integration with voice translation
 * Web-based UI using Streamlit or Flask
 
 ---
