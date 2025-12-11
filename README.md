@@ -56,13 +56,12 @@ This will:
 * Train a CNN model on the images
 * Save the trained model to disk (e.g., `asl_model.h5`)
 
-> 🕒 Note: Training may take **2-3 hours** depending on your hardware.
-
----
+> 🕒 Note: Training may take **5 - 6 hours** or  **10 - 15 hours** depending on your hardware.
+you can stop training after one epochs successfully completed and again restart whenever you want because this script save checkpoints after every epochs .
 
 ## 🎯 Step 2: Detect Sign Language
 
-Once training is complete, use the detection script to classify hand gestures:
+Once training is complete asl_model.keras saved in model/ folder , use the detection script to classify hand gestures:
 
 ```bash
 python detect_real_time.py
